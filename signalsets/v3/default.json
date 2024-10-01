@@ -3,27 +3,27 @@
   "signals": [
     {"id": "CRV_ODO", "path": "Trips", "fmt": { "bix": 344, "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-  { "hdr": "DA1D", "cmd": {"22": "2201"}, "freq": 1,
+  { "hdr": "DA10", "cmd": {"22": "2201"}, "freq": 1,
   "signals": [
     {"id": "CRV_TRANSMISSION_TEMP", "path": "Engine", "fmt": { "len": 10, "max": 300, "min": -40, "unit": "celsius" }, "name": "CRV_TRANSMISSION_TEMPERATURE"}
   ]},
-  { "hdr": "DA1D", "cmd": {"22": "0166"}, "freq": 1,
+  { "hdr": "DA10", "cmd": {"22": "0166"}, "freq": 1,
   "signals": [
     {"id": "CRV_MAF_AIR_FLOW", "path": "Engine", "fmt": { "len": 10, "max": 655.35, "min": 0, "unit": "gravity" }, "name": "CRV_AIR_FLOW"}
   ]},
-  { "hdr": "DA1D", "cmd": {"22": "0117"}, "freq": 1,
+  { "hdr": "DA10", "cmd": {"22": "0117"}, "freq": 1,
   "signals": [
     {"id": "CRV_LONG_TERM_FUEL_TRIM", "path": "Engine", "fmt": { "len": 10, "max": 99.22, "min": -100, "unit": "percent" }, "name": "CRV_LONG_TERM_FUEL"}
   ]},
-  { "hdr": "DA1D", "cmd": {"22": "0116"}, "freq": 1,
+  { "hdr": "DA10", "cmd": {"22": "0116"}, "freq": 1,
   "signals": [
     {"id": "CRV_SHORT_TERM_FUEL_TRIM", "path": "Engine", "fmt": { "len": 10, "max": 99.22, "min": -100, "unit": "percent" }, "name": "CRV_SHORT_TERM_FUEL"}
   ]},
-  { "hdr": "DA1D", "cmd": {"22": "0167"}, "freq": 1,
+  { "hdr": "DA10", "cmd": {"22": "0167"}, "freq": 1,
   "signals": [
     {"id": "CRV_ENGINE_COOLANT_TEMP", "path": "Engine", "fmt": { "len": 10, "max": 300, "min": -40, "unit": "celsius" }, "name": "CRV_COOLANT_TEMPERATURE"}
   ]},
-  { "hdr": "DA1D", "cmd": {"22": "0168"}, "freq": 1,
+  { "hdr": "DA10", "cmd": {"22": "0168"}, "freq": 1,
   "signals": [
     {"id": "CRV_INTAKE_AIR_TEMP", "path": "Engine", "fmt": { "len": 10, "max": 300, "min": -40, "unit": "celsius" }, "name": "CRV_AIR_TEMP"}
   ]}
