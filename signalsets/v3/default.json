@@ -3,7 +3,7 @@
   "signals": [
     {"id": "CRV_ODO", "path": "Trips", "fmt": { "bix": 344, "len": 24, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-  { "hdr": "DA10", "cmd": {"22": "2201"}, "freq": 1,
+  { "hdr": "DA10", "cmd": {"22": "2201"}, "freq": 5,
   "signals": [
     {"id": "CRV_TRANSMISSION_TEMP", "path": "Engine", "fmt": { "bix": 344, "len": 10, "max": 300, "min": -40, "unit": "celsius" }, "name": "CRV_TRANSMISSION_TEMPERATURE"}
   ]},
